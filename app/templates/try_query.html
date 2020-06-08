@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<head>
+  <style> body { margin: 0; } </style>
+  <script src="//unpkg.com/force-graph"></script>
+  <!--<script src="../../dist/force-graph.js"></script>-->
+  <body>
+<div>
+<div id="graph">
+</div>
+</div>
+    <div class="modal fade" id="myModal2" role="dialog">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <table>
+              <tbody>
+              <tr>
+                  <td><img class="img-circle" alt="img" width="48" height="48" id="picture" /></td>
+                  <td style="width:10px;"></td>
+                  <td>
+                      <h4 id = "title" class="modal-title"></h4>
+                  </td>
+              </tr>
+              </tbody>
+              </table>
+          </div>
+          <div class="modal-body" id = 'content'>
+            <!-- <p ></p> -->
+            <!-- <p><strong>Note:</strong> You cannot click outside of this modal to close it.</p> -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </head>
+  <body>
+    <script>
+    url = '/static/data.json';
+    // url = '/static/result.json';
+    const NODE_R = 4;
+    let highlightNodes = [];
+
+    async function getData(link) {
+      const response = await fetch(link);
+      return response.json()
+    }
+
+    async function main() {
+      const data = await getData(url);
+      const getColor = n => '#' + ((n * 1234567) % Math.pow(2, 24)).toString(16).padStart(6, '0');
+      elem = document.getElementById('graph');
+      const Graph = ForceGraph()
+      (elem)
+      .nodeCanvasObject((node, ctx, globalScale) => {//custom node
+        const label = node.label;
+        const fontSize = 12/globalScale;
+        ctx.font = `${fontSize}px Sans-Serif`;
+        const textWidth = ctx.measureText(label).width;
+        const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
+        ctx.fillStyle = getColor(node.modularity+1);//generate warna berdasarkan id user
+        ctx.beginPath(); ctx.arc(node.x, node.y,4, 0, 2 * Math.PI, false); ctx.fill();
+        if(node['role']=='landlord'){
+          ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+          ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillStyle = 'rgba(0, 0, 0, 1)';
+          ctx.fillText(label, node.x, node.y);
+        }
+        ctx.strokeStyle = 'rgba(255, 255, 255, 1)';
+        ctx.font = "30px Arial";
+        var teks = '{{keyword}}';
+        ctx.strokeText(teks, 0, 0);
+        if('hashtag' in node){
+          ctx.strokeStyle = 'rgba(255, 255, 255, 1)';
+          ctx.font = "30px Arial";
+          ctx.strokeText(node.hashtag, node.x, node.y);
+        }
+
+      })
+
+      .nodeId('id')
+      .linkAutoColorBy(d => data.nodes[d.target])
+      .linkWidth(0.2)
+      .backgroundColor("black")
+      .width(100)
+      .height(200)
+      // .nodeVal('val')
+      .nodeLabel('id')
+      .linkSource('source')
+      .linkTarget('target')
+      .onNodeHover((node, ctx) => {
+        // highlightNodes = node ? [node] : [];
+        // console.log(highlightNodes)
+        elem.style.cursor = node ? '-webkit-grab' : null;
+      })
+      .nodeCanvasObjectMode(node => highlightNodes.indexOf(node) !== -1 ? 'after' : 'before')//ini harus dinonaktifkan kalau mau pakai custom node
+      .nodeAutoColorBy('modularity')
+      .onNodeClick(node => {
+        Graph.centerAt(node.x, node.y, 1000);
+        // Graph.zoom(8, 2000);
+        highlightNodes = node ? [node] : [];
+        if(highlightNodes[0]['role']=='landlord'){
+          $('#title').text(highlightNodes[0]['label']);
+          $('#content')
+          .append('<p><strong>Created By: </strong>'+highlightNodes[0]['created']+'</p>')
+          .append('<p><strong>Type: </strong>'+highlightNodes[0]['type']+'</p>')
+          .append('<p><strong>Size: </strong>'+highlightNodes[0]['size']+'</p>')
+          .append('<p><strong>Message: </strong>')
+          .append('<p>'+highlightNodes[0]['message']+'</p>');
+          $('#picture').attr('src', highlightNodes[0]['img']);
+          $('#graph').click(logMouseMove);
+          function logMouseMove(e) {
+            // modal = document.getElementById('myModal2');
+            e = event || window.event;
+            // positionPopupOnPage(e.clientX,e.clientY);
+          }
+          $("#myModal2").modal({
+            backdrop: false
+          });
+          $('#myModal2').on('hidden.bs.modal', function () {
+            $('#content').empty()
+            // alert('hehe')
+            });
+        }
+      })
+      .onBackgroundClick((mevent) =>{
+        highlightNodes = []
+      })
+      // .d3VelocityDecay(0.7)
+      // .linkDirectionalParticles(2)
+      // .linkCurvature('curvature')
+      .graphData(data);
+    }
+    main();
+    function getViewPort() {
+
+      var viewPortWidth;
+      var viewPortHeight;
+
+      // the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+      if (typeof window.innerWidth != 'undefined') {
+        viewPortWidth = window.innerWidth,
+        viewPortHeight = window.innerHeight
+      }
+      else if (typeof document.documentElement != 'undefined'
+      && typeof document.documentElement.clientWidth !=
+      'undefined' && document.documentElement.clientWidth != 0) {
+        viewPortWidth = document.documentElement.clientWidth,
+        viewPortHeight = document.documentElement.clientHeight
+      }
+
+      // older versions of IE
+      else {
+        viewPortWidth = document.getElementsByTagName('body')[0].clientWidth,
+        viewPortHeight = document.getElementsByTagName('body')[0].clientHeight
+      }
+      return [viewPortWidth, viewPortHeight];
+    }
+    function positionPopupOnPage( event_x, event_y ) {
+      popup = document.getElementById('myModal2');
+      var VPWH = [];                  // view port width / height
+      var intVPW, intVPH;             // view port width / height
+      var intCoordX = event_x;
+      var intCoordY = event_y;    // distance from click point to view port top
+      // var intDistanceScrolledUp = document.body.scrollTop;
+      var intPopupOffsetTop = intCoordY;
+      // var intDistanceScrolledLeft = document.body.scrollLeft;
+      var intPopupOffsetLeft = intCoordX;
+
+      VPWH = getViewPort();
+      intVPW = VPWH[0];
+      intVPH = VPWH[1];
+
+      popup.style.position = 'fixed';
+      popup.style.display = 'block';
+      popup.style.zIndex = '10100';
+      var canvasOffset = $("#graph").offset();
+      var offsetX = canvasOffset.left;
+      var offsetY = canvasOffset.top;
+      if ( intCoordX > intVPW/2 ) { intPopupOffsetLeft -= offsetX; }
+      // if x is in the right half of the viewport, pull popup left by its width
+      if ( intCoordY > intVPH/2 ) { intPopupOffsetTop -= offsetY; }
+      // if y is in the bottom half of view port, pull popup up by its height
+      popup.style.top = (intPopupOffsetTop) + 'px';
+      popup.style.left = (intPopupOffsetLeft) + 'px';
+      console.log(intCoordX,intCoordY,intPopupOffsetTop,intPopupOffsetLeft);
+    }   // end fn positionPopupOnPag
+    </script>
+  </body>
+</head>
+</html>

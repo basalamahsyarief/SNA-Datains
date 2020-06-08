@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coba</title>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    /* Garis muncul */
+    .links line {
+        stroke: #ff7f0e;
+        stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+    }
+
+    .node text {
+        pointer-events: none;
+        font: 10px sans-serif;
+        }
+
+    circle {
+          cursor: pointer;
+    }
+
+    .modal {
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+        top:50px;
+        width: 400px;
+    }
+
+    /*
+    line {
+          cursor: pointer;
+    }*/
+
+</style>
+
+<svg width="1233" height="960" id="sna"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<body>
+ <!-- Modal -->
+    <div class="modal" id="content-modal" role="dialog" >
+        <div class="modal-dialog  modal-sm">
+          <div class="modal-content">
+            <div class="modal-header" id="tweet-screen-name">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <table>
+                <tbody>
+                <tr>
+                    <td><img src="" class="img-circle" alt="img" width="48" height="48" id="picture" /></td>
+                    <td style="width:10px;"></td>
+                    <td>
+                        <p id="column">@bla</p>
+                    </td>
+                </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="modal-body">
+              <p id="tweet-messages">This is a small modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<script>
+    var min_zoom = 0.1;
+    var max_zoom = 7;
+
+    var myloc = window.location.href;
+
+    var svg = d3.select("#sna"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+    svg.append("rect")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("fill", "black")
+        .style("pointer-events", "all")
+        .call(
+            d3.zoom()
+                .scaleExtent([1 / 2, 4])
+                .on("zoom", zoomed)
+        );
+
+
+    var color = d3.scaleOrdinal(d3.schemeCategory20c);
+    var attractForce = d3.forceManyBody().strength(10).distanceMax(600).distanceMin(10);
+    var repelForce = d3.forceManyBody().strength(-30).distanceMax(600).distanceMin(10);
+
+    var simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(function(d) { return d.id; }).strength(1.5))
+        .force("attractForce",attractForce)
+        .force("repelForce",repelForce)
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("collide", d3.forceCollide().radius(4));
+
+    function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+
+    function clicked(d, i) {
+        console.log("clicked", d3.event.srcElement);
+    }
+
+
+    var graph = {
+        "nodes": [
+            {"id": "Myriel", "modularity": 1, "role":"landlord", "message": "ini hanya pesan",
+                "size": 40, "type": "retweet", "img": "http://pbs.twimg.com/profile_images/1025821714503020544/o4WrnW2o_normal.jpg", "link": "https://twitter.com/benhamner/status/1038117102262079488",
+                "created": "7 Sep 2018 10:29"},
+            {"id": "Napoleon", "modularity": 1,"role":"layman", "size": 10, "img": "http://pbs.twimg.com/profile_images/1025821714503020544/o4WrnW2o_normal.jpg", "link": "https://twitter.com/benhamner/status/1038117102262079488",
+                "created": "7 Sep 2018 10:29"},
+            {"id": "CountessdeLo", "modularity": 1, "role":"layman", "size": 10, "img": "http://pbs.twimg.com/profile_images/1025821714503020544/o4WrnW2o_normal.jpg", "link": "https://twitter.com/benhamner/status/1038117102262079488",
+                "created": "7 Sep 2018 10:29"},
+            {"id": "Lucky", "modularity": 2, "role":"landlord", "message": "ini pesan ke-2",
+                "size": 20, "type": "retweet", "img": "http://pbs.twimg.com/profile_images/1025821714503020544/o4WrnW2o_normal.jpg", "link": "https://twitter.com/benhamner/status/1038117102262079488",
+                "created": "7 Sep 2018 10:29"},
+        ],
+        "links":[
+            {"source": "Napoleon", "target": "Myriel", "value": 1},
+            {"source": "CountessdeLo", "target": "Myriel", "value": 8},
+            {"source": "CountessdeLo", "target": "Lucky", "value": 8},
+        ]
+    };
+
+    graph = {{gjson|safe}};
+
+    var link = svg.append("g")
+        .attr("class", "links")
+        .selectAll("line")
+        .data(graph.links)
+        .enter().append("line")
+        .attr("stroke-width", 1)
+        //.on("mouseover", mouseover)
+        //.on("mouseout", mouseout)
+        //.attr("data-target", function(d){if (d.target.role == "layman") {return ""} return "#content-modal"})
+        //.attr("data-toggle", "modal")
+        //.style("stroke", function(d) {return color(d.target.modularity); })
+        .call(
+            d3.zoom()
+                .scaleExtent([1 / 2, 4])
+                .on("zoom", zoomed)
+        );
+
+    var node = svg.append("g")
+        .selectAll("circle")
+        .data(graph.nodes)
+        .enter().append("circle")
+        .attr("fill", function(d) { return color(d.modularity); })
+        .attr("stroke-width", 0)
+        .attr("class", "node")
+        .attr("data-target", function(d){if (d.role == "layman") {return ""} return "#content-modal"})
+        .attr("data-toggle", "modal")
+        .attr("cx", function(d, i) {
+            return (i * 100)
+        })
+        .attr("cy", function(d, i) {
+            return (i * 100)
+        })
+        .call(
+            d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended),
+            d3.zoom()
+                .scaleExtent([1 / 2, 4])
+                .on("zoom", zoomed)
+        );
+
+    var tooltip = d3.select("#chart")
+        .append("div")
+        .attr("class", "my-tooltip")//add the tooltip class
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden");
+
+    simulation
+        .nodes(graph.nodes)
+        .on("tick", ticked);
+
+    simulation.force("link")
+        .links(graph.links);
+
+    node.append("title")
+        .text(function(d) { return d.id; });
+
+
+    var dcounts_origin = [];
+    node.attr("d", function(d) {
+        if(d.role == 'landlord') {
+            dcounts_origin.push(d.size);
+        }
+    });
+
+    console.log(dcounts_origin)
+
+    dcounts_origin_max = Math.max(...dcounts_origin);
+    dcounts_origin_min = Math.min(...dcounts_origin);
+
+    console.log(dcounts_origin_max, dcounts_origin_min)
+
+    // Shit just got serious
+    var batas_atas  = 30;
+    var batas_bawah = 6;
+
+    node.attr("r", function(d) {
+        if(d.role == 'landlord') {
+            var xs = (d.size - dcounts_origin_min) * batas_bawah;
+            var xd = (xs/(dcounts_origin_max-dcounts_origin_min)) + batas_bawah;
+
+
+            return xd.toFixed(2);
+        } else {
+            return 4;
+        }
+    });
+
+    // Shit just got serious
+    var batas_atas_font  = 20;
+    var batas_bawah_font = 12;
+    var show_font = dcounts_origin.sort(function (a, b) {  return a - b;  });
+
+    console.log(show_font)
+    show_font = show_font.slice(-15);
+
+
+    var label = svg.selectAll(null)
+        .data(graph.nodes)
+        .enter()
+        .append("text")
+        .text(function (d) {
+            if(d.role == "layman" || d.size < show_font[0]) {
+                return "";
+            }
+            return "@"+d.id;
+        })
+        .style("text-anchor", "start")
+        .style("fill", "#ffffff")
+        .style("font-family", "Arial")
+        .style("font-size", function (d) {
+            if(d.role == 'landlord') {
+                var fs = (d.size - dcounts_origin_min) * batas_atas_font;
+                var fd = (fs/(dcounts_origin_max-dcounts_origin_min)) + batas_bawah_font;
+                return fd.toFixed(2);
+            }
+        })
+        .call(
+            d3.zoom()
+                .scaleExtent([1 / 2, 4])
+                .on("zoom", zoomed)
+        );
+    function zoomed() {
+        node.attr("transform", d3.event.transform);
+        link.attr("transform", d3.event.transform);
+        label.attr("transform", d3.event.transform);
+
+    };
+
+    function mouseover() {
+        d3.select(this)
+            .style("stroke-width", 4);
+    }
+
+     function mouseout() {
+        d3.select(this)
+            .style("stroke-width", 0.6);
+    }
+
+    function ticked() {
+        link
+            .attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; })
+            .style("stroke", function(d) {return color(d.target.modularity); });
+            /*
+            .on("click",  function(d) { console.log(d.target)})
+            .on("click", function(d) {
+                    $('#tweet-messages').text('');
+                    $('#tweet-screen-name').text('');
+                    $('#tweet-messages')
+                        .append(d.source.created)
+                        .append("<br />" + d.target.type + " by @" + d.source.id )
+                        .append("<br /> <br />" + d.target.message)
+                        .append("<br /> <br />" + "twitter link".link(d.target.link));
+                    $('#tweet-screen-name')
+                        .html('<img src=' + d.target.img + ' class=\"img-circle\" >')
+                        .append("\t \t@")
+                        .append(d.target.id);
+
+
+                    console.log(d.target.img);
+                })*/
+
+        node
+            .attr("cx", function(d) { return d.x; })
+            .attr("cy", function(d) { return d.y; })
+            .on("click", function(d) { if(d.role == 'landlord') {
+                $('#tweet-messages').text('');
+                $('#tweet-screen-name').text('');
+                $('#tweet-messages')
+                    .append(d.created)
+                    .append("<br />" + d.type)
+                    .append("<br /> <br />" + d.message)
+                    .append("<br /> <br />" + "twitter link".link(d.link));
+                $('#tweet-screen-name')
+                    .html('<img src=' + d.img + ' class=\"img-circle\" >')
+                    .append("\t \t@")
+                    .append(d.id);
+
+
+                console.log(d.img);
+            }
+            });
+        label
+            .attr("x", function(d) { return d.x; })
+            .attr("y", function(d) { return d.y; });
+
+    }
+
+
+</script>
+
+</body>
+</html>

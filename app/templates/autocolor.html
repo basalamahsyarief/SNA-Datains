@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style> body { margin: 0; } </style>
+  <script src="//unpkg.com/force-graph"></script>
+  <!--<script src="../../dist/force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="graph"></div>
+
+  <script>
+
+      url = '/static/2500jokowiprabowofromgephi.json';
+      // url = '/static/result.json';
+      const NODE_R = 4;
+      let highlightNodes = [];
+
+      async function getData(link) {
+          const response = await fetch(link);
+          return response.json()
+      }
+
+      async function main() {
+          const data = await getData(url);
+          // console.log(data.nodes['attributes'])
+          attrib = data.nodes;
+          trend = []
+          attrib.forEach(element=>{
+              if('message' in element.attributes & element.attributes.size>10000){
+                arr = []
+                trend.push(element);
+              }
+          })
+          console.log(trend)
+
+          elem = document.getElementById('graph');
+          // console.log(elem)
+          const Graph = ForceGraph()
+          (elem)
+              .nodeAutoColorBy('group')
+              .linkAutoColorBy(d => data.nodes[d.target])
+              .linkWidth(0.2)
+              //.nodeRelSize(NODE_R)
+              .backgroundColor("black")
+              .nodeId('id')
+              .nodeVal('val')
+              .nodeLabel('label')
+              .linkSource('source')
+              .linkTarget('target')
+              .onNodeHover((node, ctx) => {
+               // highlightNodes = node ? [node] : [];
+                // console.log(highlightNodes)
+                elem.style.cursor = node ? '-webkit-grab' : null;
+              })
+              .nodeCanvasObjectMode(node => highlightNodes.indexOf(node) !== -1 ? 'after' : 'before')
+              .nodeCanvasObject((node, ctx) => {
+                //ctx.beginPath();
+                //ctx.arc(node.x, node.y, NODE_R * 1.4, 0, 2 * Math.PI, false);
+                //ctx.fillStyle = 'red';
+                //ctx.fill();
+                // console.log(node)
+                // console.log(highlightNodes)
+                if(highlightNodes.indexOf(node) !== -1) {ctx.fillStyle = 'white';ctx.fillRect(node.x+100,node.y - 1500, 800,1000)}
+                ctx.font = '52px serif';
+                ctx.fillStyle = 'darkgrey';
+                // ctx.fillText("bla", node.x+10, node.y-10);
+              })
+              .nodeCanvasObject((node, ctx, globalScale) => {
+                const label = node.label;
+                const fontSize = 12/globalScale;
+                ctx.font = `${fontSize}px Sans-Serif`;
+                const textWidth = ctx.measureText(label).width;
+                const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
+                if('message' in node.attributes && node.attributes['size']>2100){
+                ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+                ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+                console.log(label);
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillStyle = 'rgba(0, 0, 0, 1)';
+                ctx.fillText(label, node.x, node.y);
+              }
+
+              })
+              .onNodeClick(node => {
+                  highlightNodes = node ? [node] : [];
+              })
+              .onBackgroundClick((mevent) =>{
+                  highlightNodes = []
+              })
+              .d3VelocityDecay(0.7)
+              .linkDirectionalParticles(2)
+              .linkCurvature('curvature')
+              .graphData(data);
+      }
+      main();
+
+
+  </script>
+</body>
+</html>
