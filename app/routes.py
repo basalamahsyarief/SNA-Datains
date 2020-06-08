@@ -28,4 +28,4 @@ def contoh():
 if __name__ == '__main__':
     print("Loading PyTorch model and Flask starting server ...")
     print("Please wait until server has fully started")
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
