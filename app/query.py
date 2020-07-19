@@ -144,7 +144,7 @@ class QuerySNA:
         sentences_raw = [a for a in df.message.values]
         sentences = [self.clean_text(a) for a in sentences_raw]
         df['cleaned'] = sentences
-        text = df['cleaned'][:10]
+        text = df['cleaned'][:50]
         text_data = [word_tokenize(i) for i in text]
         data = list(itertools.chain.from_iterable(text_data))
         matrix, vocab_index = self.generate_co_occurrence_matrix(data)
