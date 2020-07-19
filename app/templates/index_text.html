@@ -126,8 +126,9 @@
         highlightNodes = []
       })
       .d3VelocityDecay(0.7)
-      .linkDirectionalParticles("weight")
-      .linkDirectionalParticleSpeed(d => d.weight * 0.001)
+      // .linkDirectionalParticles("weight")
+      // .linkDirectionalParticleSpeed(d => d.weight * 0.001)
+      .linkDirectionalArrowLength(6)
       .linkCurvature('curvature')
       .d3AlphaDecay(0)
       .graphData(data);
