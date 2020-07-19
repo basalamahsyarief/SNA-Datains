@@ -1,0 +1,1212 @@
+{
+    "directed": false,
+    "graph": {},
+    "links": [
+        {
+            "source": "joko86526728",
+            "target": "detikcom",
+            "weight": 1.0
+        },
+        {
+            "source": "joko86526728",
+            "target": "dll",
+            "weight": 1.0
+        },
+        {
+            "source": "presiden",
+            "target": "hantu",
+            "weight": 2.0
+        },
+        {
+            "source": "presiden",
+            "target": "indonesia",
+            "weight": 1.0
+        },
+        {
+            "source": "presiden",
+            "target": "detikfinance",
+            "weight": 1.0
+        },
+        {
+            "source": "detikcom",
+            "target": "detikhot",
+            "weight": 1.0
+        },
+        {
+            "source": "detikcom",
+            "target": "memudahka",
+            "weight": 1.0
+        },
+        {
+            "source": "detikcom",
+            "target": "detikfinance",
+            "weight": 1.0
+        },
+        {
+            "source": "roemah",
+            "target": "austin",
+            "weight": 1.0
+        },
+        {
+            "source": "roemah",
+            "target": "pastryperumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "bank",
+            "target": "trilyun",
+            "weight": 1.0
+        },
+        {
+            "source": "bank",
+            "target": "swiss",
+            "weight": 1.0
+        },
+        {
+            "source": "meringankan",
+            "target": "vivacoid",
+            "weight": 1.0
+        },
+        {
+            "source": "meringankan",
+            "target": "naikan",
+            "weight": 1.0
+        },
+        {
+            "source": "polisi",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "polisi",
+            "target": "jaksa",
+            "weight": 1.0
+        },
+        {
+            "source": "koordinasi",
+            "target": "pelimpahan",
+            "weight": 1.0
+        },
+        {
+            "source": "koordinasi",
+            "target": "jaksa",
+            "weight": 1.0
+        },
+        {
+            "source": "hantu",
+            "target": "11",
+            "weight": 1.0
+        },
+        {
+            "source": "hantu",
+            "target": "perumahan",
+            "weight": 2.0
+        },
+        {
+            "source": "hantu",
+            "target": "esemka",
+            "weight": 2.0
+        },
+        {
+            "source": "hantu",
+            "target": "uang",
+            "weight": 1.0
+        },
+        {
+            "source": "hantu",
+            "target": "mobil",
+            "weight": 2.0
+        },
+        {
+            "source": "hantu",
+            "target": "yg",
+            "weight": 4.0
+        },
+        {
+            "source": "hantu",
+            "target": "bumn",
+            "weight": 2.0
+        },
+        {
+            "source": "asabri",
+            "target": "bumn2",
+            "weight": 1.0
+        },
+        {
+            "source": "asabri",
+            "target": "bumiputera",
+            "weight": 1.0
+        },
+        {
+            "source": "vivacoid",
+            "target": "memudahka",
+            "weight": 1.0
+        },
+        {
+            "source": "tega",
+            "target": "raja",
+            "weight": 1.0
+        },
+        {
+            "source": "tega",
+            "target": "malu",
+            "weight": 1.0
+        },
+        {
+            "source": "meneken",
+            "target": "jokowi",
+            "weight": 5.0
+        },
+        {
+            "source": "meneken",
+            "target": "pp",
+            "weight": 5.0
+        },
+        {
+            "source": "g",
+            "target": "no",
+            "weight": 1.0
+        },
+        {
+            "source": "g",
+            "target": "blok",
+            "weight": 1.0
+        },
+        {
+            "source": "jokowi",
+            "target": "pandemi",
+            "weight": 5.0
+        },
+        {
+            "source": "11",
+            "target": "ribu",
+            "weight": 1.0
+        },
+        {
+            "source": "maguwoharjo",
+            "target": "depok",
+            "weight": 1.0
+        },
+        {
+            "source": "maguwoharjo",
+            "target": "k",
+            "weight": 1.0
+        },
+        {
+            "source": "maguwoharjo",
+            "target": "jenengan",
+            "weight": 1.0
+        },
+        {
+            "source": "maguwoharjo",
+            "target": "desa",
+            "weight": 1.0
+        },
+        {
+            "source": "iuran",
+            "target": "tahapdua",
+            "weight": 1.0
+        },
+        {
+            "source": "iuran",
+            "target": "tapera",
+            "weight": 5.0
+        },
+        {
+            "source": "iuran",
+            "target": "memudahka",
+            "weight": 2.0
+        },
+        {
+            "source": "iuran",
+            "target": "naikan",
+            "weight": 1.0
+        },
+        {
+            "source": "iuran",
+            "target": "bpjs",
+            "weight": 1.0
+        },
+        {
+            "source": "iuran",
+            "target": "malu",
+            "weight": 1.0
+        },
+        {
+            "source": "indonesia",
+            "target": "lucunya",
+            "weight": 1.0
+        },
+        {
+            "source": "raja",
+            "target": "betul2",
+            "weight": 1.0
+        },
+        {
+            "source": "tahapdua",
+            "target": "pelimpahan",
+            "weight": 1.0
+        },
+        {
+            "source": "1",
+            "target": "no",
+            "weight": 1.0
+        },
+        {
+            "source": "1",
+            "target": "desa",
+            "weight": 1.0
+        },
+        {
+            "source": "melengkapi",
+            "target": "tapera",
+            "weight": 5.0
+        },
+        {
+            "source": "melengkapi",
+            "target": "derita",
+            "weight": 5.0
+        },
+        {
+            "source": "betul2",
+            "target": "pencuri",
+            "weight": 1.0
+        },
+        {
+            "source": "penipuan",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "penipuan",
+            "target": "ghoib",
+            "weight": 1.0
+        },
+        {
+            "source": "perumahan",
+            "target": "tabungan",
+            "weight": 6.0
+        },
+        {
+            "source": "perumahan",
+            "target": "disaat",
+            "weight": 1.0
+        },
+        {
+            "source": "perumahan",
+            "target": "ghoib",
+            "weight": 2.0
+        },
+        {
+            "source": "perumahan",
+            "target": "rakyat",
+            "weight": 5.0
+        },
+        {
+            "source": "detikhot",
+            "target": "lucunya",
+            "weight": 1.0
+        },
+        {
+            "source": "wahyu",
+            "target": "austin",
+            "weight": 1.0
+        },
+        {
+            "source": "wahyu",
+            "target": "dyaragil",
+            "weight": 1.0
+        },
+        {
+            "source": "kelola",
+            "target": "becus",
+            "weight": 1.0
+        },
+        {
+            "source": "kelola",
+            "target": "jamsostek",
+            "weight": 1.0
+        },
+        {
+            "source": "sulit",
+            "target": "disaat",
+            "weight": 1.0
+        },
+        {
+            "source": "sulit",
+            "target": "jelas2",
+            "weight": 1.0
+        },
+        {
+            "source": "ribuan",
+            "target": "trilliun",
+            "weight": 1.0
+        },
+        {
+            "source": "ribuan",
+            "target": "kebobolan",
+            "weight": 1.0
+        },
+        {
+            "source": "esemka",
+            "target": "mobil",
+            "weight": 2.0
+        },
+        {
+            "source": "2020",
+            "target": "tapera",
+            "weight": 5.0
+        },
+        {
+            "source": "2020",
+            "target": "25",
+            "weight": 5.0
+        },
+        {
+            "source": "uang",
+            "target": "ghoibada",
+            "weight": 1.0
+        },
+        {
+            "source": "dll",
+            "target": "swiss",
+            "weight": 1.0
+        },
+        {
+            "source": "tabungan",
+            "target": "tapera",
+            "weight": 5.0
+        },
+        {
+            "source": "tabungan",
+            "target": "listrik",
+            "weight": 1.0
+        },
+        {
+            "source": "cemara",
+            "target": "taman",
+            "weight": 1.0
+        },
+        {
+            "source": "cemara",
+            "target": "blok",
+            "weight": 1.0
+        },
+        {
+            "source": "trilliun",
+            "target": "pencuri",
+            "weight": 1.0
+        },
+        {
+            "source": "tapera",
+            "target": "memudahka",
+            "weight": 5.0
+        },
+        {
+            "source": "tapera",
+            "target": "rakyat",
+            "weight": 5.0
+        },
+        {
+            "source": "jaminan",
+            "target": "kesehatan",
+            "weight": 1.0
+        },
+        {
+            "source": "jaminan",
+            "target": "tua",
+            "weight": 1.0
+        },
+        {
+            "source": "depok",
+            "target": "jenengan",
+            "weight": 1.0
+        },
+        {
+            "source": "becus",
+            "target": "jelas2",
+            "weight": 1.0
+        },
+        {
+            "source": "ghoib",
+            "target": "alam",
+            "weight": 3.0
+        },
+        {
+            "source": "trilyun",
+            "target": "ribu",
+            "weight": 1.0
+        },
+        {
+            "source": "bumn2",
+            "target": "kebobolan",
+            "weight": 1.0
+        },
+        {
+            "source": "bumiputera",
+            "target": "jamsostek",
+            "weight": 1.0
+        },
+        {
+            "source": "memudahka",
+            "target": "loveliestr",
+            "weight": 1.0
+        },
+        {
+            "source": "yg",
+            "target": "dibangun",
+            "weight": 2.0
+        },
+        {
+            "source": "yg",
+            "target": "dijual",
+            "weight": 2.0
+        },
+        {
+            "source": "taman",
+            "target": "pastryperumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "kesehatan",
+            "target": "bpjs",
+            "weight": 1.0
+        },
+        {
+            "source": "no",
+            "target": "pp",
+            "weight": 5.0
+        },
+        {
+            "source": "no",
+            "target": "25",
+            "weight": 5.0
+        },
+        {
+            "source": "rakyat",
+            "target": "pandemi",
+            "weight": 5.0
+        },
+        {
+            "source": "rakyat",
+            "target": "derita",
+            "weight": 5.0
+        },
+        {
+            "source": "listrik",
+            "target": "tua",
+            "weight": 1.0
+        },
+        {
+            "source": "dyaragil",
+            "target": "loveliestr",
+            "weight": 1.0
+        },
+        {
+            "source": "alam",
+            "target": "dibangun",
+            "weight": 2.0
+        },
+        {
+            "source": "alam",
+            "target": "dijual",
+            "weight": 2.0
+        },
+        {
+            "source": "alam",
+            "target": "ghoibada",
+            "weight": 1.0
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "betweenness": 0.0,
+            "closeness": 0.10216346153846154,
+            "degree": 0.011764705882352941,
+            "id": "k",
+            "modularity": 7,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.16699410609037327,
+            "degree": 0.011764705882352941,
+            "id": "bumn",
+            "modularity": 1,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.05413165266106441,
+            "closeness": 0.16865079365079366,
+            "degree": 0.023529411764705882,
+            "id": "joko86526728",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03099906629318394,
+            "closeness": 0.11821974965229486,
+            "degree": 0.023529411764705882,
+            "id": "roemah",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.012955182072829129,
+            "closeness": 0.1303680981595092,
+            "degree": 0.023529411764705882,
+            "id": "bank",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.00028011204481792715,
+            "closeness": 0.15977443609022557,
+            "degree": 0.023529411764705882,
+            "id": "meringankan",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0353548085901027,
+            "closeness": 0.18478260869565216,
+            "degree": 0.023529411764705882,
+            "id": "polisi",
+            "modularity": 4,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.012450980392156863,
+            "closeness": 0.15769944341372913,
+            "degree": 0.023529411764705882,
+            "id": "koordinasi",
+            "modularity": 4,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.025583566760037348,
+            "closeness": 0.09465478841870824,
+            "degree": 0.023529411764705882,
+            "id": "asabri",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.01198879551820728,
+            "closeness": 0.18162393162393162,
+            "degree": 0.023529411764705882,
+            "id": "vivacoid",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.12963118580765642,
+            "closeness": 0.1640926640926641,
+            "degree": 0.023529411764705882,
+            "id": "tega",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.016386554621848737,
+            "closeness": 0.15482695810564662,
+            "degree": 0.023529411764705882,
+            "id": "meneken",
+            "modularity": 6,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.06690009337068159,
+            "closeness": 0.14382402707275804,
+            "degree": 0.023529411764705882,
+            "id": "g",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.031232492997198876,
+            "closeness": 0.17137096774193547,
+            "degree": 0.023529411764705882,
+            "id": "jokowi",
+            "modularity": 6,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.05651260504201682,
+            "closeness": 0.17,
+            "degree": 0.023529411764705882,
+            "id": "11",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.011732026143790849,
+            "closeness": 0.15653775322283608,
+            "degree": 0.023529411764705882,
+            "id": "indonesia",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.11142390289449113,
+            "closeness": 0.1457975986277873,
+            "degree": 0.023529411764705882,
+            "id": "raja",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0327124183006536,
+            "closeness": 0.1827956989247312,
+            "degree": 0.023529411764705882,
+            "id": "tahapdua",
+            "modularity": 4,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.11204481792717086,
+            "closeness": 0.14309764309764308,
+            "degree": 0.023529411764705882,
+            "id": "1",
+            "modularity": 7,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.006461251167133521,
+            "closeness": 0.19318181818181818,
+            "degree": 0.023529411764705882,
+            "id": "melengkapi",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.09321661998132583,
+            "closeness": 0.13117283950617284,
+            "degree": 0.023529411764705882,
+            "id": "betul2",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.18398268398268397,
+            "degree": 0.023529411764705882,
+            "id": "penipuan",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.01898692810457516,
+            "closeness": 0.16699410609037327,
+            "degree": 0.023529411764705882,
+            "id": "detikhot",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0641923436041083,
+            "closeness": 0.14166666666666666,
+            "degree": 0.023529411764705882,
+            "id": "wahyu",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.07765172735760972,
+            "closeness": 0.12005649717514125,
+            "degree": 0.023529411764705882,
+            "id": "kelola",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.13227357609710547,
+            "closeness": 0.16569200779727095,
+            "degree": 0.023529411764705882,
+            "id": "sulit",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03859477124183007,
+            "closeness": 0.10083036773428232,
+            "degree": 0.023529411764705882,
+            "id": "ribuan",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.1673228346456693,
+            "degree": 0.023529411764705882,
+            "id": "esemka",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.22348272642390285,
+            "closeness": 0.20531400966183574,
+            "degree": 0.023529411764705882,
+            "id": "2020",
+            "modularity": 6,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.014744786803610336,
+            "closeness": 0.16831683168316833,
+            "degree": 0.023529411764705882,
+            "id": "uang",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03312324929971989,
+            "closeness": 0.14680483592400692,
+            "degree": 0.023529411764705882,
+            "id": "dll",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.027124183006535945,
+            "closeness": 0.11596180081855388,
+            "degree": 0.023529411764705882,
+            "id": "cemara",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.15048085901027075,
+            "closeness": 0.18973214285714285,
+            "degree": 0.023529411764705882,
+            "id": "disaat",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.05680205415499533,
+            "closeness": 0.10925449871465295,
+            "degree": 0.023529411764705882,
+            "id": "trilliun",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.005112044817927171,
+            "closeness": 0.14912280701754385,
+            "degree": 0.023529411764705882,
+            "id": "jaminan",
+            "modularity": 8,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.1022864019253911,
+            "degree": 0.023529411764705882,
+            "id": "depok",
+            "modularity": 7,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.09585901027077498,
+            "closeness": 0.1321928460342146,
+            "degree": 0.023529411764705882,
+            "id": "becus",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0176797385620915,
+            "closeness": 0.16346153846153846,
+            "degree": 0.023529411764705882,
+            "id": "pelimpahan",
+            "modularity": 4,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.018487394957983194,
+            "closeness": 0.1328125,
+            "degree": 0.023529411764705882,
+            "id": "trilyun",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.02001400560224089,
+            "closeness": 0.09330406147091108,
+            "degree": 0.023529411764705882,
+            "id": "bumn2",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.04123716153127916,
+            "closeness": 0.10143198090692124,
+            "degree": 0.023529411764705882,
+            "id": "bumiputera",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.1673228346456693,
+            "degree": 0.023529411764705882,
+            "id": "mobil",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.046405228758169936,
+            "closeness": 0.1280120481927711,
+            "degree": 0.023529411764705882,
+            "id": "austin",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.059444444444444446,
+            "closeness": 0.10996119016817593,
+            "degree": 0.023529411764705882,
+            "id": "jamsostek",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.013025210084033612,
+            "closeness": 0.10732323232323232,
+            "degree": 0.023529411764705882,
+            "id": "taman",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.018277310924369742,
+            "closeness": 0.13449367088607594,
+            "degree": 0.023529411764705882,
+            "id": "swiss",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.013790849673202614,
+            "closeness": 0.15625,
+            "degree": 0.023529411764705882,
+            "id": "kesehatan",
+            "modularity": 8,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.1022864019253911,
+            "degree": 0.023529411764705882,
+            "id": "jenengan",
+            "modularity": 7,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.01134453781512605,
+            "closeness": 0.14964788732394366,
+            "degree": 0.023529411764705882,
+            "id": "pp",
+            "modularity": 6,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.007749766573295985,
+            "closeness": 0.1579925650557621,
+            "degree": 0.023529411764705882,
+            "id": "lucunya",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03550420168067226,
+            "closeness": 0.14782608695652175,
+            "degree": 0.023529411764705882,
+            "id": "ribu",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03464519140989729,
+            "closeness": 0.18681318681318682,
+            "degree": 0.023529411764705882,
+            "id": "listrik",
+            "modularity": 8,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.20835667600373478,
+            "closeness": 0.18162393162393162,
+            "degree": 0.023529411764705882,
+            "id": "25",
+            "modularity": 6,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.016153127917833802,
+            "closeness": 0.11010362694300518,
+            "degree": 0.023529411764705882,
+            "id": "pastryperumahan",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.08408029878618112,
+            "closeness": 0.16068052930056712,
+            "degree": 0.023529411764705882,
+            "id": "dyaragil",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.10396825396825395,
+            "closeness": 0.185589519650655,
+            "degree": 0.023529411764705882,
+            "id": "loveliestr",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.011260504201680671,
+            "closeness": 0.1812366737739872,
+            "degree": 0.023529411764705882,
+            "id": "naikan",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.07500933706816058,
+            "closeness": 0.11921458625525946,
+            "degree": 0.023529411764705882,
+            "id": "pencuri",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03342203548085901,
+            "closeness": 0.18240343347639484,
+            "degree": 0.023529411764705882,
+            "id": "bpjs",
+            "modularity": 8,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.04663865546218487,
+            "closeness": 0.1927437641723356,
+            "degree": 0.023529411764705882,
+            "id": "pandemi",
+            "modularity": 6,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.11406629318394021,
+            "closeness": 0.14705882352941177,
+            "degree": 0.023529411764705882,
+            "id": "jelas2",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.003113912231559288,
+            "closeness": 0.18640350877192982,
+            "degree": 0.023529411764705882,
+            "id": "derita",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0014332399626517272,
+            "closeness": 0.14655172413793102,
+            "degree": 0.023529411764705882,
+            "id": "dibangun",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.14783846872082168,
+            "closeness": 0.18763796909492272,
+            "degree": 0.023529411764705882,
+            "id": "malu",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.04701213818860877,
+            "closeness": 0.1283987915407855,
+            "degree": 0.023529411764705882,
+            "id": "blok",
+            "modularity": 2,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0014332399626517272,
+            "closeness": 0.14655172413793102,
+            "degree": 0.023529411764705882,
+            "id": "dijual",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.014430438842203536,
+            "closeness": 0.15947467166979362,
+            "degree": 0.023529411764705882,
+            "id": "tua",
+            "modularity": 8,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0907563025210084,
+            "closeness": 0.12686567164179105,
+            "degree": 0.023529411764705882,
+            "id": "desa",
+            "modularity": 7,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.018020541549953317,
+            "closeness": 0.16159695817490494,
+            "degree": 0.023529411764705882,
+            "id": "jaksa",
+            "modularity": 4,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.00180672268907563,
+            "closeness": 0.14655172413793102,
+            "degree": 0.023529411764705882,
+            "id": "ghoibada",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.0366433239962652,
+            "closeness": 0.185589519650655,
+            "degree": 0.023529411764705882,
+            "id": "detikfinance",
+            "modularity": 0,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.02524276377217554,
+            "closeness": 0.0952914798206278,
+            "degree": 0.023529411764705882,
+            "id": "kebobolan",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.06098506069094303,
+            "closeness": 0.183585313174946,
+            "degree": 0.03529411764705882,
+            "id": "presiden",
+            "modularity": 1,
+            "radius": 8.714285714285715
+        },
+        {
+            "betweenness": 0.17782913165266104,
+            "closeness": 0.22546419098143236,
+            "degree": 0.03529411764705882,
+            "id": "tabungan",
+            "modularity": 3,
+            "radius": 8.714285714285715
+        },
+        {
+            "betweenness": 0.044561157796451915,
+            "closeness": 0.185589519650655,
+            "degree": 0.03529411764705882,
+            "id": "ghoib",
+            "modularity": 1,
+            "radius": 8.714285714285715
+        },
+        {
+            "betweenness": 0.029723000311235603,
+            "closeness": 0.16898608349900596,
+            "degree": 0.03529411764705882,
+            "id": "yg",
+            "modularity": 1,
+            "radius": 8.714285714285715
+        },
+        {
+            "betweenness": 0.14353408029878623,
+            "closeness": 0.19813519813519814,
+            "degree": 0.047058823529411764,
+            "id": "detikcom",
+            "modularity": 0,
+            "radius": 10.285714285714285
+        },
+        {
+            "betweenness": 0.06946778711484593,
+            "closeness": 0.11363636363636363,
+            "degree": 0.047058823529411764,
+            "id": "maguwoharjo",
+            "modularity": 7,
+            "radius": 10.285714285714285
+        },
+        {
+            "betweenness": 0.21886087768440707,
+            "closeness": 0.16346153846153846,
+            "degree": 0.047058823529411764,
+            "id": "no",
+            "modularity": 6,
+            "radius": 10.285714285714285
+        },
+        {
+            "betweenness": 0.20482259570494857,
+            "closeness": 0.22727272727272727,
+            "degree": 0.047058823529411764,
+            "id": "rakyat",
+            "modularity": 3,
+            "radius": 10.285714285714285
+        },
+        {
+            "betweenness": 0.028085901027077496,
+            "closeness": 0.15977443609022557,
+            "degree": 0.047058823529411764,
+            "id": "alam",
+            "modularity": 1,
+            "radius": 10.285714285714285
+        },
+        {
+            "betweenness": 0.2597852474323062,
+            "closeness": 0.21963824289405684,
+            "degree": 0.058823529411764705,
+            "id": "memudahka",
+            "modularity": 3,
+            "radius": 11.857142857142858
+        },
+        {
+            "betweenness": 0.2772408963585434,
+            "closeness": 0.2190721649484536,
+            "degree": 0.07058823529411765,
+            "id": "iuran",
+            "modularity": 3,
+            "radius": 13.428571428571429
+        },
+        {
+            "betweenness": 0.4509663865546216,
+            "closeness": 0.23743016759776536,
+            "degree": 0.07058823529411765,
+            "id": "tapera",
+            "modularity": 3,
+            "radius": 13.428571428571429
+        },
+        {
+            "betweenness": 0.4264192343604107,
+            "closeness": 0.22193211488250653,
+            "degree": 0.08235294117647059,
+            "id": "perumahan",
+            "modularity": 3,
+            "radius": 15.0
+        },
+        {
+            "betweenness": 0.2522222222222223,
+            "closeness": 0.2,
+            "degree": 0.09411764705882353,
+            "id": "hantu",
+            "modularity": 1,
+            "radius": 16.57142857142857
+        }
+    ]
+}

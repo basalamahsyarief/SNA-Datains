@@ -18,14 +18,12 @@ def prediksi():
 
 
 @app.route('/', methods=['POST', 'GET'])
-@app.route('/tabs', methods=['POST', 'GET'])
+@app.route('/text_network', methods=['POST', 'GET'])
 def contoh():
 
-    return render_template('admin/ui-tabs.html')
+    return render_template('index_text.html')
 # prediksi()
 
 
 if __name__ == '__main__':
-    print("Loading PyTorch model and Flask starting server ...")
-    print("Please wait until server has fully started")
     app.run(host='0.0.0.0', port=5000)
