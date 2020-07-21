@@ -18,10 +18,16 @@ def prediksi():
 
 
 @app.route('/', methods=['POST', 'GET'])
-@app.route('/text_network', methods=['POST', 'GET'])
+@app.route('/text_twitter', methods=['POST', 'GET'])
 def contoh():
 
-    return render_template('index_text.html')
+    return render_template('index_twitter.html')
+
+@app.route('/', methods=['POST', 'GET'])
+@app.route('/text_media', methods=['POST', 'GET'])
+def media():
+
+    return render_template('index_media.html')
 # prediksi()
 
 

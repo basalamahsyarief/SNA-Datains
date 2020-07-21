@@ -34,7 +34,7 @@ APP_STATIC = os.path.join(APP_ROOT, 'static')
 class QuerySNA:
     def __init__(self):
         self.G = nx.Graph()
-        self.df = pd.read_csv(APP_STATIC+'/twitter perumahan 7-8 juni.csv')
+        self.df = []
         self.alay = pd.read_csv(APP_STATIC+'/alay.csv')
         self.gdata = []
         self.lemma = WordNetLemmatizer()
@@ -138,8 +138,13 @@ class QuerySNA:
     def getgraph(self):
         return self.G
 
-    def generate_network(self):
-        df = self.df
+    def generate_network(self, type):
+        if(type=='twitter'):
+            df = pd.read_csv(APP_STATIC+'/twitter perumahan 7-8 juni.csv')
+            df['message'] = df['message'].fillna('').apply(str)
+        else:
+            df = pd.read_csv(APP_STATIC+'/online media - perumahan 9 mei-8 juni.csv')
+            df['message'] = df['fulltext'].fillna('').apply(str)
         df['message'] = df['message'].fillna('').apply(str)
         sentences_raw = [a for a in df.message.values]
         sentences = [self.clean_text(a) for a in sentences_raw]
