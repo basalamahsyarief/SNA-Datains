@@ -10,6 +10,7 @@ import flask
 import time
 import networkx as nx
 import community
+from community import community_louvain
 import io
 import codecs
 import json
@@ -25,6 +26,7 @@ from nltk import bigrams
 from nltk.tokenize import word_tokenize
 from random import seed
 nltk.download('punkt')
+nltk.download('stopwords')
 warnings.filterwarnings("ignore")
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -36,6 +38,8 @@ class QuerySNA:
         self.G = nx.Graph()
         self.df = []
         self.alay = pd.read_csv(APP_STATIC+'/alay.csv')
+        self.alay = self.alay.loc[:,:'formal']
+        self.alay = dict(zip(self.alay.slang,self.alay.formal))
         self.gdata = []
         self.lemma = WordNetLemmatizer()
         self.stop_words = set(stopwords.words('indonesian'))
@@ -87,7 +91,7 @@ class QuerySNA:
         self.degree = nx.degree_centrality(self.G)
         self.betweenness = nx.betweenness_centrality(self.G)  # most expensive
         self.closeness = nx.closeness_centrality(self.G)  # 2nd most expensive
-        self.communities = community.best_partition(self.G)
+        self.communities = community_louvain.best_partition(self.G)
 
     # #set graph attributes from centrality calculation
     def graphattributes(self):
@@ -143,9 +147,8 @@ class QuerySNA:
             df = pd.read_csv(APP_STATIC+'/twitter perumahan 7-8 juni.csv')
             df['message'] = df['message'].fillna('').apply(str)
         else:
-            df = pd.read_csv(APP_STATIC+'/online media - perumahan 9 mei-8 juni.csv')
+            df = pd.read_csv(APP_STATIC+'/online media - perumahan 9 mei-8 juni.csv')[:2]
             df['message'] = df['fulltext'].fillna('').apply(str)
-        df['message'] = df['message'].fillna('').apply(str)
         sentences_raw = [a for a in df.message.values]
         sentences = [self.clean_text(a) for a in sentences_raw]
         df['cleaned'] = sentences

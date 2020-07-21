@@ -1,0 +1,2283 @@
+{
+    "directed": false,
+    "graph": {},
+    "links": [
+        {
+            "source": "pemberitaan",
+            "target": "arsip",
+            "weight": 1.0
+        },
+        {
+            "source": "pemberitaan",
+            "target": "harian",
+            "weight": 1.0
+        },
+        {
+            "source": "mengelola",
+            "target": "dana",
+            "weight": 2.0
+        },
+        {
+            "source": "mengelola",
+            "target": "investasi",
+            "weight": 1.0
+        },
+        {
+            "source": "mengelola",
+            "target": "mi",
+            "weight": 1.0
+        },
+        {
+            "source": "mengelola",
+            "target": "menginvestasikan",
+            "weight": 1.0
+        },
+        {
+            "source": "mengelola",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "sisi",
+            "target": "indonesia",
+            "weight": 1.0
+        },
+        {
+            "source": "sisi",
+            "target": "kontra",
+            "weight": 1.0
+        },
+        {
+            "source": "sisi",
+            "target": "dianggap",
+            "weight": 1.0
+        },
+        {
+            "source": "sisi",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "pekerja",
+            "target": "memanfaatkan",
+            "weight": 1.0
+        },
+        {
+            "source": "pekerja",
+            "target": "tabungan",
+            "weight": 1.0
+        },
+        {
+            "source": "pekerja",
+            "target": "beban",
+            "weight": 1.0
+        },
+        {
+            "source": "pekerja",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "flpp",
+            "target": "dana",
+            "weight": 1.0
+        },
+        {
+            "source": "flpp",
+            "target": "kebutuhan",
+            "weight": 1.0
+        },
+        {
+            "source": "flpp",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "flpp",
+            "target": "dilimpahkan",
+            "weight": 1.0
+        },
+        {
+            "source": "terjawab",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "terjawab",
+            "target": "skema",
+            "weight": 1.0
+        },
+        {
+            "source": "kritik",
+            "target": "arsip",
+            "weight": 1.0
+        },
+        {
+            "source": "kritik",
+            "target": "menuai",
+            "weight": 1.0
+        },
+        {
+            "source": "setransparan",
+            "target": "adi",
+            "weight": 1.0
+        },
+        {
+            "source": "setransparan",
+            "target": "kriteria",
+            "weight": 1.0
+        },
+        {
+            "source": "uang",
+            "target": "skema",
+            "weight": 1.0
+        },
+        {
+            "source": "uang",
+            "target": "pasar",
+            "weight": 1.0
+        },
+        {
+            "source": "indonesia",
+            "target": "ksei",
+            "weight": 1.0
+        },
+        {
+            "source": "indonesia",
+            "target": "efek",
+            "weight": 1.0
+        },
+        {
+            "source": "indonesia",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "kolektif",
+            "target": "investasi",
+            "weight": 1.0
+        },
+        {
+            "source": "kolektif",
+            "target": "kik",
+            "weight": 1.0
+        },
+        {
+            "source": "konferensi",
+            "target": "video",
+            "weight": 1.0
+        },
+        {
+            "source": "konferensi",
+            "target": "adi",
+            "weight": 1.0
+        },
+        {
+            "source": "taperumpns",
+            "target": "eks",
+            "weight": 1.0
+        },
+        {
+            "source": "taperumpns",
+            "target": "dikembalikan",
+            "weight": 1.0
+        },
+        {
+            "source": "digadanggadang",
+            "target": "salah",
+            "weight": 1.0
+        },
+        {
+            "source": "digadanggadang",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "keterbatasan",
+            "target": "pemerintah",
+            "weight": 1.0
+        },
+        {
+            "source": "keterbatasan",
+            "target": "anggaran",
+            "weight": 1.0
+        },
+        {
+            "source": "bank",
+            "target": "ksei",
+            "weight": 1.0
+        },
+        {
+            "source": "bank",
+            "target": "kustodian",
+            "weight": 3.0
+        },
+        {
+            "source": "bank",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "bank",
+            "target": "kriteria",
+            "weight": 1.0
+        },
+        {
+            "source": "2012",
+            "target": "perjalanan",
+            "weight": 1.0
+        },
+        {
+            "source": "2012",
+            "target": "baca",
+            "weight": 1.0
+        },
+        {
+            "source": "2014",
+            "target": "program",
+            "weight": 1.0
+        },
+        {
+            "source": "2014",
+            "target": "oktober",
+            "weight": 1.0
+        },
+        {
+            "source": "rancangan",
+            "target": "undangundang",
+            "weight": 1.0
+        },
+        {
+            "source": "rancangan",
+            "target": "terbitlah",
+            "weight": 1.0
+        },
+        {
+            "source": "menentukan",
+            "target": "mi",
+            "weight": 1.0
+        },
+        {
+            "source": "menentukan",
+            "target": "asosiasi",
+            "weight": 1.0
+        },
+        {
+            "source": "menentukan",
+            "target": "setianto",
+            "weight": 1.0
+        },
+        {
+            "source": "menentukan",
+            "target": "kriteria",
+            "weight": 1.0
+        },
+        {
+            "source": "ojk",
+            "target": "keuangan",
+            "weight": 1.0
+        },
+        {
+            "source": "ojk",
+            "target": "asosiasi",
+            "weight": 1.0
+        },
+        {
+            "source": "menandatangani",
+            "target": "jokowi",
+            "weight": 1.0
+        },
+        {
+            "source": "menandatangani",
+            "target": "peraturan",
+            "weight": 1.0
+        },
+        {
+            "source": "pp",
+            "target": "pemerintah",
+            "weight": 2.0
+        },
+        {
+            "source": "pp",
+            "target": "no",
+            "weight": 1.0
+        },
+        {
+            "source": "pp",
+            "target": "nomor",
+            "weight": 1.0
+        },
+        {
+            "source": "mei",
+            "target": "20",
+            "weight": 1.0
+        },
+        {
+            "source": "mei",
+            "target": "2020",
+            "weight": 1.0
+        },
+        {
+            "source": "hunian",
+            "target": "memanfaatkan",
+            "weight": 1.0
+        },
+        {
+            "source": "hunian",
+            "target": "aturan",
+            "weight": 1.0
+        },
+        {
+            "source": "saldo",
+            "target": "aktif",
+            "weight": 1.0
+        },
+        {
+            "source": "saldo",
+            "target": "peserta",
+            "weight": 2.0
+        },
+        {
+            "source": "saldo",
+            "target": "diperhitungkan",
+            "weight": 1.0
+        },
+        {
+            "source": "perjalanan",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "berkonsultasi",
+            "target": "ksei",
+            "weight": 1.0
+        },
+        {
+            "source": "berkonsultasi",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "berfokus",
+            "target": "lembaga",
+            "weight": 1.0
+        },
+        {
+            "source": "berfokus",
+            "target": "operasionalisasi",
+            "weight": 1.0
+        },
+        {
+            "source": "bapertarum",
+            "target": "dana",
+            "weight": 1.0
+        },
+        {
+            "source": "bapertarum",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "menuai",
+            "target": "pro",
+            "weight": 1.0
+        },
+        {
+            "source": "menuai",
+            "target": "tapera",
+            "weight": 2.0
+        },
+        {
+            "source": "ruu",
+            "target": "undangundang",
+            "weight": 1.0
+        },
+        {
+            "source": "ruu",
+            "target": "tabungan",
+            "weight": 1.0
+        },
+        {
+            "source": "penyelenggaraan",
+            "target": "tabungan",
+            "weight": 2.0
+        },
+        {
+            "source": "penyelenggaraan",
+            "target": "2020",
+            "weight": 2.0
+        },
+        {
+            "source": "harian",
+            "target": "kompas",
+            "weight": 1.0
+        },
+        {
+            "source": "bp",
+            "target": "dilimpahkan",
+            "weight": 1.0
+        },
+        {
+            "source": "bp",
+            "target": "komisioner",
+            "weight": 1.0
+        },
+        {
+            "source": "bp",
+            "target": "pengelola",
+            "weight": 1.0
+        },
+        {
+            "source": "bp",
+            "target": "bertahap",
+            "weight": 1.0
+        },
+        {
+            "source": "bp",
+            "target": "tapera",
+            "weight": 5.0
+        },
+        {
+            "source": "bp",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "lembaga",
+            "target": "tahap",
+            "weight": 1.0
+        },
+        {
+            "source": "sipil",
+            "target": "negara",
+            "weight": 1.0
+        },
+        {
+            "source": "sipil",
+            "target": "aparatur",
+            "weight": 1.0
+        },
+        {
+            "source": "mengakomodasi",
+            "target": "aturan",
+            "weight": 1.0
+        },
+        {
+            "source": "mengakomodasi",
+            "target": "kebutuhan",
+            "weight": 1.0
+        },
+        {
+            "source": "joko",
+            "target": "presiden",
+            "weight": 1.0
+        },
+        {
+            "source": "joko",
+            "target": "widodo",
+            "weight": 1.0
+        },
+        {
+            "source": "17",
+            "target": "oktober",
+            "weight": 1.0
+        },
+        {
+            "source": "17",
+            "target": "kompas",
+            "weight": 1.0
+        },
+        {
+            "source": "rakyat",
+            "target": "perumahan",
+            "weight": 3.0
+        },
+        {
+            "source": "rakyat",
+            "target": "tapera",
+            "weight": 3.0
+        },
+        {
+            "source": "eks",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "terbitnya",
+            "target": "kompascom",
+            "weight": 1.0
+        },
+        {
+            "source": "terbitnya",
+            "target": "peraturan",
+            "weight": 1.0
+        },
+        {
+            "source": "kontra",
+            "target": "pro",
+            "weight": 1.0
+        },
+        {
+            "source": "menyelesaikan",
+            "target": "kebutuhan",
+            "weight": 1.0
+        },
+        {
+            "source": "menyelesaikan",
+            "target": "program",
+            "weight": 1.0
+        },
+        {
+            "source": "backlog",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "backlog",
+            "target": "angka",
+            "weight": 1.0
+        },
+        {
+            "source": "konsepnya",
+            "target": "tabungan",
+            "weight": 1.0
+        },
+        {
+            "source": "konsepnya",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "dana",
+            "target": "baca",
+            "weight": 1.0
+        },
+        {
+            "source": "dana",
+            "target": "tapera",
+            "weight": 2.0
+        },
+        {
+            "source": "dana",
+            "target": "peserta",
+            "weight": 2.0
+        },
+        {
+            "source": "dana",
+            "target": "pengelolaan",
+            "weight": 1.0
+        },
+        {
+            "source": "dikelola",
+            "target": "model",
+            "weight": 1.0
+        },
+        {
+            "source": "dikelola",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "ksei",
+            "target": "otoritas",
+            "weight": 1.0
+        },
+        {
+            "source": "tahap",
+            "target": "operasionalnya",
+            "weight": 1.0
+        },
+        {
+            "source": "solusi",
+            "target": "mengurangi",
+            "weight": 1.0
+        },
+        {
+            "source": "solusi",
+            "target": "salah",
+            "weight": 1.0
+        },
+        {
+            "source": "investasi",
+            "target": "mi",
+            "weight": 1.0
+        },
+        {
+            "source": "investasi",
+            "target": "kontrak",
+            "weight": 2.0
+        },
+        {
+            "source": "investasi",
+            "target": "dialokasikan",
+            "weight": 1.0
+        },
+        {
+            "source": "investasi",
+            "target": "manajer",
+            "weight": 2.0
+        },
+        {
+            "source": "waris",
+            "target": "ahli",
+            "weight": 1.0
+        },
+        {
+            "source": "waris",
+            "target": "diperhitungkan",
+            "weight": 1.0
+        },
+        {
+            "source": "kustodian",
+            "target": "kik",
+            "weight": 1.0
+        },
+        {
+            "source": "kustodian",
+            "target": "mi",
+            "weight": 1.0
+        },
+        {
+            "source": "kustodian",
+            "target": "sentral",
+            "weight": 1.0
+        },
+        {
+            "source": "kustodian",
+            "target": "manajer",
+            "weight": 2.0
+        },
+        {
+            "source": "efek",
+            "target": "sentral",
+            "weight": 1.0
+        },
+        {
+            "source": "penyediaan",
+            "target": "kebutuhan",
+            "weight": 1.0
+        },
+        {
+            "source": "penyediaan",
+            "target": "perumahan",
+            "weight": 1.0
+        },
+        {
+            "source": "ahli",
+            "target": "pensiun",
+            "weight": 1.0
+        },
+        {
+            "source": "kebutuhan",
+            "target": "permukiman",
+            "weight": 1.0
+        },
+        {
+            "source": "kebutuhan",
+            "target": "terbitlah",
+            "weight": 1.0
+        },
+        {
+            "source": "permukiman",
+            "target": "penduduk",
+            "weight": 1.0
+        },
+        {
+            "source": "singkat",
+            "target": "penduduk",
+            "weight": 1.0
+        },
+        {
+            "source": "singkat",
+            "target": "samping",
+            "weight": 1.0
+        },
+        {
+            "source": "pembiayaan",
+            "target": "perumahan",
+            "weight": 2.0
+        },
+        {
+            "source": "pembiayaan",
+            "target": "fasilitas",
+            "weight": 1.0
+        },
+        {
+            "source": "pembiayaan",
+            "target": "project",
+            "weight": 1.0
+        },
+        {
+            "source": "pembiayaan",
+            "target": "skema",
+            "weight": 1.0
+        },
+        {
+            "source": "pembiayaan",
+            "target": "likuiditas",
+            "weight": 1.0
+        },
+        {
+            "source": "baca",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "baca",
+            "target": "pengelolaan",
+            "weight": 1.0
+        },
+        {
+            "source": "dijalankan",
+            "target": "program",
+            "weight": 1.0
+        },
+        {
+            "source": "dijalankan",
+            "target": "pemerintah",
+            "weight": 1.0
+        },
+        {
+            "source": "negara",
+            "target": "asn",
+            "weight": 1.0
+        },
+        {
+            "source": "perumahan",
+            "target": "tabungan",
+            "weight": 4.0
+        },
+        {
+            "source": "perumahan",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "berasal",
+            "target": "asn",
+            "weight": 1.0
+        },
+        {
+            "source": "berasal",
+            "target": "badan",
+            "weight": 1.0
+        },
+        {
+            "source": "beroperasi",
+            "target": "resmi",
+            "weight": 1.0
+        },
+        {
+            "source": "beroperasi",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "pns",
+            "target": "dikembalikan",
+            "weight": 1.0
+        },
+        {
+            "source": "pns",
+            "target": "aktif",
+            "weight": 1.0
+        },
+        {
+            "source": "pns",
+            "target": "pensiun",
+            "weight": 1.0
+        },
+        {
+            "source": "pns",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "simpanan",
+            "target": "menginvestasikan",
+            "weight": 1.0
+        },
+        {
+            "source": "simpanan",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "simpanan",
+            "target": "diinvestasikan",
+            "weight": 1.0
+        },
+        {
+            "source": "program",
+            "target": "anggaran",
+            "weight": 1.0
+        },
+        {
+            "source": "pemerintah",
+            "target": "samping",
+            "weight": 1.0
+        },
+        {
+            "source": "pemerintah",
+            "target": "peraturan",
+            "weight": 2.0
+        },
+        {
+            "source": "pemerintah",
+            "target": "meluncurkan",
+            "weight": 1.0
+        },
+        {
+            "source": "angka",
+            "target": "mengurangi",
+            "weight": 1.0
+        },
+        {
+            "source": "resmi",
+            "target": "kerja",
+            "weight": 1.0
+        },
+        {
+            "source": "no",
+            "target": "25",
+            "weight": 1.0
+        },
+        {
+            "source": "jasa",
+            "target": "keuangan",
+            "weight": 1.0
+        },
+        {
+            "source": "jasa",
+            "target": "otoritas",
+            "weight": 1.0
+        },
+        {
+            "source": "tabungan",
+            "target": "pertimbangan",
+            "weight": 1.0
+        },
+        {
+            "source": "berpotensi",
+            "target": "dianggap",
+            "weight": 1.0
+        },
+        {
+            "source": "berpotensi",
+            "target": "menimbulkan",
+            "weight": 1.0
+        },
+        {
+            "source": "jakarta",
+            "target": "kompascom",
+            "weight": 2.0
+        },
+        {
+            "source": "jakarta",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "aparatur",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "nomor",
+            "target": "25",
+            "weight": 1.0
+        },
+        {
+            "source": "20",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "mi",
+            "target": "komisioner",
+            "weight": 1.0
+        },
+        {
+            "source": "mi",
+            "target": "kriteria",
+            "weight": 1.0
+        },
+        {
+            "source": "initial",
+            "target": "project",
+            "weight": 1.0
+        },
+        {
+            "source": "initial",
+            "target": "pelaksanaan",
+            "weight": 1.0
+        },
+        {
+            "source": "video",
+            "target": "jumat",
+            "weight": 1.0
+        },
+        {
+            "source": "fasilitas",
+            "target": "likuiditas",
+            "weight": 1.0
+        },
+        {
+            "source": "pertimbangan",
+            "target": "badan",
+            "weight": 1.0
+        },
+        {
+            "source": "jokowi",
+            "target": "widodo",
+            "weight": 1.0
+        },
+        {
+            "source": "pengelola",
+            "target": "badan",
+            "weight": 1.0
+        },
+        {
+            "source": "kontrak",
+            "target": "model",
+            "weight": 1.0
+        },
+        {
+            "source": "kontrak",
+            "target": "skema",
+            "weight": 1.0
+        },
+        {
+            "source": "modal",
+            "target": "pasar",
+            "weight": 1.0
+        },
+        {
+            "source": "dialokasikan",
+            "target": "pelaksanaan",
+            "weight": 1.0
+        },
+        {
+            "source": "bertahap",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "layanan",
+            "target": "operasionalisasi",
+            "weight": 1.0
+        },
+        {
+            "source": "layanan",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "operasionalnya",
+            "target": "menjalankan",
+            "weight": 1.0
+        },
+        {
+            "source": "pemberi",
+            "target": "pengusaha",
+            "weight": 1.0
+        },
+        {
+            "source": "pemberi",
+            "target": "kerja",
+            "weight": 1.0
+        },
+        {
+            "source": "662020",
+            "target": "jumat",
+            "weight": 1.0
+        },
+        {
+            "source": "kompascom",
+            "target": "presiden",
+            "weight": 1.0
+        },
+        {
+            "source": "skema",
+            "target": "tapera",
+            "weight": 1.0
+        },
+        {
+            "source": "skema",
+            "target": "meluncurkan",
+            "weight": 1.0
+        },
+        {
+            "source": "badan",
+            "target": "2020",
+            "weight": 1.0
+        },
+        {
+            "source": "setianto",
+            "target": "adi",
+            "weight": 1.0
+        },
+        {
+            "source": "beban",
+            "target": "menimbulkan",
+            "weight": 1.0
+        },
+        {
+            "source": "tapera",
+            "target": "peserta",
+            "weight": 1.0
+        },
+        {
+            "source": "tapera",
+            "target": "adi",
+            "weight": 1.0
+        },
+        {
+            "source": "tapera",
+            "target": "menjalankan",
+            "weight": 1.0
+        },
+        {
+            "source": "peserta",
+            "target": "pengusaha",
+            "weight": 1.0
+        },
+        {
+            "source": "2020",
+            "target": "25",
+            "weight": 2.0
+        },
+        {
+            "source": "pasar",
+            "target": "diinvestasikan",
+            "weight": 1.0
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "betweenness": 0.0,
+            "closeness": 0.160676532769556,
+            "degree": 0.006578947368421052,
+            "id": "modal",
+            "modularity": 4,
+            "radius": 4.523809523809524
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.13036020583190394,
+            "degree": 0.006578947368421052,
+            "id": "662020",
+            "modularity": 5,
+            "radius": 4.523809523809524
+        },
+        {
+            "betweenness": 0.026927417882454483,
+            "closeness": 0.15369059656218403,
+            "degree": 0.013157894736842105,
+            "id": "pemberitaan",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006155957970614645,
+            "closeness": 0.2512396694214876,
+            "degree": 0.013157894736842105,
+            "id": "terjawab",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.05067262527178876,
+            "closeness": 0.2122905027932961,
+            "degree": 0.013157894736842105,
+            "id": "kritik",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0005809225049378412,
+            "closeness": 0.2159090909090909,
+            "degree": 0.013157894736842105,
+            "id": "setransparan",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.02154183535762483,
+            "closeness": 0.2261904761904762,
+            "degree": 0.013157894736842105,
+            "id": "uang",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.002036133379807134,
+            "closeness": 0.19240506329113924,
+            "degree": 0.013157894736842105,
+            "id": "kolektif",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.038950853956082256,
+            "closeness": 0.2114047287899861,
+            "degree": 0.013157894736842105,
+            "id": "konferensi",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 8.71383757406762e-05,
+            "closeness": 0.19071518193224593,
+            "degree": 0.013157894736842105,
+            "id": "taperumpns",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.029780992215638433,
+            "closeness": 0.25894378194207834,
+            "degree": 0.013157894736842105,
+            "id": "digadanggadang",
+            "modularity": 8,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.008314660824246046,
+            "closeness": 0.17819460726846426,
+            "degree": 0.013157894736842105,
+            "id": "keterbatasan",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 7.261531311723015e-05,
+            "closeness": 0.2096551724137931,
+            "degree": 0.013157894736842105,
+            "id": "2012",
+            "modularity": 1,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.03869109860744577,
+            "closeness": 0.17798594847775176,
+            "degree": 0.013157894736842105,
+            "id": "arsip",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.025137761622599546,
+            "closeness": 0.14887365328109697,
+            "degree": 0.013157894736842105,
+            "id": "2014",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0024029444472107434,
+            "closeness": 0.16050686378035903,
+            "degree": 0.013157894736842105,
+            "id": "rancangan",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.002610624242726021,
+            "closeness": 0.14272300469483568,
+            "degree": 0.013157894736842105,
+            "id": "ojk",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.013572424438579898,
+            "closeness": 0.152,
+            "degree": 0.013157894736842105,
+            "id": "menandatangani",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.017451119520655943,
+            "closeness": 0.214992927864215,
+            "degree": 0.013157894736842105,
+            "id": "mei",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006611727995485403,
+            "closeness": 0.17491369390103567,
+            "degree": 0.013157894736842105,
+            "id": "hunian",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.005309009278162289,
+            "closeness": 0.25675675675675674,
+            "degree": 0.013157894736842105,
+            "id": "perjalanan",
+            "modularity": 1,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.014292975817026004,
+            "closeness": 0.2607204116638079,
+            "degree": 0.013157894736842105,
+            "id": "berkonsultasi",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006709654932032067,
+            "closeness": 0.17312072892938496,
+            "degree": 0.013157894736842105,
+            "id": "berfokus",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0011880493929988525,
+            "closeness": 0.24281150159744408,
+            "degree": 0.013157894736842105,
+            "id": "bapertarum",
+            "modularity": 1,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.016389707074614682,
+            "closeness": 0.2037533512064343,
+            "degree": 0.013157894736842105,
+            "id": "ruu",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.013316403591760858,
+            "closeness": 0.20907840440165062,
+            "degree": 0.013157894736842105,
+            "id": "penyelenggaraan",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.01671770485817192,
+            "closeness": 0.13743218806509946,
+            "degree": 0.013157894736842105,
+            "id": "harian",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.00039212269083304285,
+            "closeness": 0.14858260019550343,
+            "degree": 0.013157894736842105,
+            "id": "lembaga",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.005537452265406254,
+            "closeness": 0.17572254335260115,
+            "degree": 0.013157894736842105,
+            "id": "undangundang",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.020229796345167552,
+            "closeness": 0.2079343365253078,
+            "degree": 0.013157894736842105,
+            "id": "sipil",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.010590839681986423,
+            "closeness": 0.18401937046004843,
+            "degree": 0.013157894736842105,
+            "id": "mengakomodasi",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.013184866138857082,
+            "closeness": 0.15526046986721145,
+            "degree": 0.013157894736842105,
+            "id": "joko",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006146160102242361,
+            "closeness": 0.12121212121212122,
+            "degree": 0.013157894736842105,
+            "id": "17",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.007564343454461962,
+            "closeness": 0.27191413237924866,
+            "degree": 0.013157894736842105,
+            "id": "rakyat",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.012678633670268386,
+            "closeness": 0.2331288343558282,
+            "degree": 0.013157894736842105,
+            "id": "eks",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.016661687330910058,
+            "closeness": 0.20212765957446807,
+            "degree": 0.013157894736842105,
+            "id": "memanfaatkan",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.014457501369317333,
+            "closeness": 0.19047619047619047,
+            "degree": 0.013157894736842105,
+            "id": "terbitnya",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0007987684442895319,
+            "closeness": 0.21288515406162464,
+            "degree": 0.013157894736842105,
+            "id": "kontra",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.040737121501325045,
+            "closeness": 0.19143576826196473,
+            "degree": 0.013157894736842105,
+            "id": "menyelesaikan",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.021456372719879175,
+            "closeness": 0.22060957910014514,
+            "degree": 0.013157894736842105,
+            "id": "backlog",
+            "modularity": 8,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.02766289662856411,
+            "closeness": 0.26855123674911663,
+            "degree": 0.013157894736842105,
+            "id": "konsepnya",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.007753551926173051,
+            "closeness": 0.23529411764705882,
+            "degree": 0.013157894736842105,
+            "id": "dikelola",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0006273963053328686,
+            "closeness": 0.21081830790568654,
+            "degree": 0.013157894736842105,
+            "id": "pro",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006709654932032067,
+            "closeness": 0.17312072892938496,
+            "degree": 0.013157894736842105,
+            "id": "tahap",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006000929476007901,
+            "closeness": 0.17391304347826086,
+            "degree": 0.013157894736842105,
+            "id": "solusi",
+            "modularity": 8,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.003216858371093296,
+            "closeness": 0.1625668449197861,
+            "degree": 0.013157894736842105,
+            "id": "aturan",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.00026141512722202857,
+            "closeness": 0.16187433439829607,
+            "degree": 0.013157894736842105,
+            "id": "waris",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.00496160630353729,
+            "closeness": 0.20430107526881722,
+            "degree": 0.013157894736842105,
+            "id": "efek",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0227865841799268,
+            "closeness": 0.22995461422087746,
+            "degree": 0.013157894736842105,
+            "id": "penyediaan",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.00039212269083304285,
+            "closeness": 0.1622198505869797,
+            "degree": 0.013157894736842105,
+            "id": "ahli",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.01584445384985643,
+            "closeness": 0.1855921855921856,
+            "degree": 0.013157894736842105,
+            "id": "permukiman",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0038994423143952598,
+            "closeness": 0.1568627450980392,
+            "degree": 0.013157894736842105,
+            "id": "singkat",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.021588947534398908,
+            "closeness": 0.18203592814371258,
+            "degree": 0.013157894736842105,
+            "id": "dijalankan",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.008654915434281067,
+            "closeness": 0.17592592592592593,
+            "degree": 0.013157894736842105,
+            "id": "negara",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006100516191140101,
+            "closeness": 0.16983240223463686,
+            "degree": 0.013157894736842105,
+            "id": "berasal",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.02173977991335956,
+            "closeness": 0.25806451612903225,
+            "degree": 0.013157894736842105,
+            "id": "beroperasi",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.008908446613221793,
+            "closeness": 0.18247298919567828,
+            "degree": 0.013157894736842105,
+            "id": "angka",
+            "modularity": 8,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.009017577055220834,
+            "closeness": 0.20680272108843537,
+            "degree": 0.013157894736842105,
+            "id": "resmi",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.004433061129645305,
+            "closeness": 0.160676532769556,
+            "degree": 0.013157894736842105,
+            "id": "no",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0006680608806785175,
+            "closeness": 0.18313253012048192,
+            "degree": 0.013157894736842105,
+            "id": "kik",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.012031873281437585,
+            "closeness": 0.15966386554621848,
+            "degree": 0.013157894736842105,
+            "id": "jasa",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.004072820019142781,
+            "closeness": 0.17882352941176471,
+            "degree": 0.013157894736842105,
+            "id": "berpotensi",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.06627080947401616,
+            "closeness": 0.2629757785467128,
+            "degree": 0.013157894736842105,
+            "id": "jakarta",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.03258892263772013,
+            "closeness": 0.25894378194207834,
+            "degree": 0.013157894736842105,
+            "id": "aparatur",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.005932463609354511,
+            "closeness": 0.16291532690246516,
+            "degree": 0.013157894736842105,
+            "id": "penduduk",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.004433061129645305,
+            "closeness": 0.160676532769556,
+            "degree": 0.013157894736842105,
+            "id": "nomor",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.027553361881524997,
+            "closeness": 0.26161790017211706,
+            "degree": 0.013157894736842105,
+            "id": "20",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.004231640082546322,
+            "closeness": 0.17551963048498845,
+            "degree": 0.013157894736842105,
+            "id": "initial",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.001571741163062181,
+            "closeness": 0.14165890027958994,
+            "degree": 0.013157894736842105,
+            "id": "keuangan",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.004545303656492223,
+            "closeness": 0.23937007874015748,
+            "degree": 0.013157894736842105,
+            "id": "dilimpahkan",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.02614151272220286,
+            "closeness": 0.17551963048498845,
+            "degree": 0.013157894736842105,
+            "id": "video",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0016561572504409728,
+            "closeness": 0.19071518193224593,
+            "degree": 0.013157894736842105,
+            "id": "sentral",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.2040268456375839,
+            "degree": 0.013157894736842105,
+            "id": "fasilitas",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.008469020232700956,
+            "closeness": 0.20708446866485014,
+            "degree": 0.013157894736842105,
+            "id": "pertimbangan",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.005948596154242722,
+            "closeness": 0.23348694316436253,
+            "degree": 0.013157894736842105,
+            "id": "komisioner",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.014284746081539394,
+            "closeness": 0.16396979503775622,
+            "degree": 0.013157894736842105,
+            "id": "asosiasi",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0018386197281282674,
+            "closeness": 0.16414686825053995,
+            "degree": 0.013157894736842105,
+            "id": "mengurangi",
+            "modularity": 8,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0035058673172998723,
+            "closeness": 0.13275109170305677,
+            "degree": 0.013157894736842105,
+            "id": "jokowi",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.01321723182127504,
+            "closeness": 0.13126079447322972,
+            "degree": 0.013157894736842105,
+            "id": "oktober",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.001495875450214941,
+            "closeness": 0.15637860082304528,
+            "degree": 0.013157894736842105,
+            "id": "asn",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.020700136101844013,
+            "closeness": 0.229607250755287,
+            "degree": 0.013157894736842105,
+            "id": "pengelola",
+            "modularity": 10,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.010183140607504486,
+            "closeness": 0.18335343787696018,
+            "degree": 0.013157894736842105,
+            "id": "terbitlah",
+            "modularity": 3,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.011016365416853392,
+            "closeness": 0.19167717528373265,
+            "degree": 0.013157894736842105,
+            "id": "dialokasikan",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.01488233552977366,
+            "closeness": 0.21199442119944212,
+            "degree": 0.013157894736842105,
+            "id": "dianggap",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.015362115277155353,
+            "closeness": 0.20540540540540542,
+            "degree": 0.013157894736842105,
+            "id": "project",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0024137330080167304,
+            "closeness": 0.2275449101796407,
+            "degree": 0.013157894736842105,
+            "id": "menginvestasikan",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.2585034013605442,
+            "degree": 0.013157894736842105,
+            "id": "bertahap",
+            "modularity": 1,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0019337457883118396,
+            "closeness": 0.2087912087912088,
+            "degree": 0.013157894736842105,
+            "id": "model",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.031979783896828165,
+            "closeness": 0.2585034013605442,
+            "degree": 0.013157894736842105,
+            "id": "layanan",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.019344719414430115,
+            "closeness": 0.2073669849931787,
+            "degree": 0.013157894736842105,
+            "id": "operasionalnya",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.004227456057361948,
+            "closeness": 0.19095477386934673,
+            "degree": 0.013157894736842105,
+            "id": "pemberi",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.00039212269083304285,
+            "closeness": 0.19167717528373265,
+            "degree": 0.013157894736842105,
+            "id": "dikembalikan",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.019344719414430115,
+            "closeness": 0.2073669849931787,
+            "degree": 0.013157894736842105,
+            "id": "operasionalisasi",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0002178459393516905,
+            "closeness": 0.19216182048040456,
+            "degree": 0.013157894736842105,
+            "id": "aktif",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.017233066108981062,
+            "closeness": 0.2079343365253078,
+            "degree": 0.013157894736842105,
+            "id": "salah",
+            "modularity": 8,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.008731372128897396,
+            "closeness": 0.2159090909090909,
+            "degree": 0.013157894736842105,
+            "id": "setianto",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.2040268456375839,
+            "degree": 0.013157894736842105,
+            "id": "likuiditas",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.024404692747320843,
+            "closeness": 0.18788627935723115,
+            "degree": 0.013157894736842105,
+            "id": "otoritas",
+            "modularity": 6,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.01132017405544767,
+            "closeness": 0.19921363040629095,
+            "degree": 0.013157894736842105,
+            "id": "beban",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.013114325548971767,
+            "closeness": 0.19216182048040456,
+            "degree": 0.013157894736842105,
+            "id": "pensiun",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0022612408504705476,
+            "closeness": 0.16926503340757237,
+            "degree": 0.013157894736842105,
+            "id": "menimbulkan",
+            "modularity": 2,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0015249215754618334,
+            "closeness": 0.15966386554621848,
+            "degree": 0.013157894736842105,
+            "id": "anggaran",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.011909118823548937,
+            "closeness": 0.17757009345794392,
+            "degree": 0.013157894736842105,
+            "id": "samping",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.01694965891550067,
+            "closeness": 0.23384615384615384,
+            "degree": 0.013157894736842105,
+            "id": "pengusaha",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.008642882039535922,
+            "closeness": 0.12666666666666668,
+            "degree": 0.013157894736842105,
+            "id": "kompas",
+            "modularity": 0,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.025117014390280305,
+            "closeness": 0.18225419664268586,
+            "degree": 0.013157894736842105,
+            "id": "presiden",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.013157894736842105,
+            "closeness": 0.1497536945812808,
+            "degree": 0.013157894736842105,
+            "id": "jumat",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.00026141512722202857,
+            "closeness": 0.17736289381563594,
+            "degree": 0.013157894736842105,
+            "id": "kerja",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0,
+            "closeness": 0.2261904761904762,
+            "degree": 0.013157894736842105,
+            "id": "pengelolaan",
+            "modularity": 1,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.09508567223799014,
+            "closeness": 0.23937007874015748,
+            "degree": 0.013157894736842105,
+            "id": "meluncurkan",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.012852910421749738,
+            "closeness": 0.19143576826196473,
+            "degree": 0.013157894736842105,
+            "id": "diperhitungkan",
+            "modularity": 7,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.002026209287014446,
+            "closeness": 0.16539717083786726,
+            "degree": 0.013157894736842105,
+            "id": "pelaksanaan",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.003663546282925853,
+            "closeness": 0.13970588235294118,
+            "degree": 0.013157894736842105,
+            "id": "widodo",
+            "modularity": 9,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.031979783896828165,
+            "closeness": 0.2585034013605442,
+            "degree": 0.013157894736842105,
+            "id": "menjalankan",
+            "modularity": 11,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.006207380396993502,
+            "closeness": 0.19843342036553524,
+            "degree": 0.013157894736842105,
+            "id": "diinvestasikan",
+            "modularity": 4,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.0008475244402396721,
+            "closeness": 0.194125159642401,
+            "degree": 0.013157894736842105,
+            "id": "manajer",
+            "modularity": 5,
+            "radius": 5.0476190476190474
+        },
+        {
+            "betweenness": 0.020684990622250998,
+            "closeness": 0.179456906729634,
+            "degree": 0.019736842105263157,
+            "id": "pp",
+            "modularity": 10,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.03184907633321715,
+            "closeness": 0.2345679012345679,
+            "degree": 0.019736842105263157,
+            "id": "saldo",
+            "modularity": 7,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.07435974041062925,
+            "closeness": 0.2629757785467128,
+            "degree": 0.019736842105263157,
+            "id": "menuai",
+            "modularity": 1,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.02015387743428873,
+            "closeness": 0.2389937106918239,
+            "degree": 0.019736842105263157,
+            "id": "simpanan",
+            "modularity": 4,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.019190862969182945,
+            "closeness": 0.2345679012345679,
+            "degree": 0.019736842105263157,
+            "id": "kontrak",
+            "modularity": 5,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.05860844163388598,
+            "closeness": 0.22060957910014514,
+            "degree": 0.019736842105263157,
+            "id": "kompascom",
+            "modularity": 9,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.03250178426197942,
+            "closeness": 0.17777777777777778,
+            "degree": 0.019736842105263157,
+            "id": "peraturan",
+            "modularity": 9,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.019390778270178766,
+            "closeness": 0.17451205510907003,
+            "degree": 0.019736842105263157,
+            "id": "25",
+            "modularity": 10,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.015027012896479609,
+            "closeness": 0.19119496855345913,
+            "degree": 0.019736842105263157,
+            "id": "pasar",
+            "modularity": 4,
+            "radius": 5.571428571428571
+        },
+        {
+            "betweenness": 0.048782068305421394,
+            "closeness": 0.26573426573426573,
+            "degree": 0.02631578947368421,
+            "id": "sisi",
+            "modularity": 2,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.057228325100405944,
+            "closeness": 0.2459546925566343,
+            "degree": 0.02631578947368421,
+            "id": "pekerja",
+            "modularity": 2,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.08438685288415163,
+            "closeness": 0.25894378194207834,
+            "degree": 0.02631578947368421,
+            "id": "flpp",
+            "modularity": 3,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.039567637737731864,
+            "closeness": 0.24918032786885247,
+            "degree": 0.02631578947368421,
+            "id": "indonesia",
+            "modularity": 6,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.06286478664049246,
+            "closeness": 0.26902654867256637,
+            "degree": 0.02631578947368421,
+            "id": "bank",
+            "modularity": 5,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.028284978450541374,
+            "closeness": 0.194125159642401,
+            "degree": 0.02631578947368421,
+            "id": "menentukan",
+            "modularity": 5,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.03873763527824176,
+            "closeness": 0.22857142857142856,
+            "degree": 0.02631578947368421,
+            "id": "ksei",
+            "modularity": 6,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.011303299639828042,
+            "closeness": 0.2638888888888889,
+            "degree": 0.02631578947368421,
+            "id": "baca",
+            "modularity": 1,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.04491983269431858,
+            "closeness": 0.23565891472868217,
+            "degree": 0.02631578947368421,
+            "id": "pns",
+            "modularity": 7,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.04879313349599162,
+            "closeness": 0.17214043035107587,
+            "degree": 0.02631578947368421,
+            "id": "program",
+            "modularity": 9,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.023600599180069372,
+            "closeness": 0.20239680426098536,
+            "degree": 0.02631578947368421,
+            "id": "badan",
+            "modularity": 10,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.030522498298726962,
+            "closeness": 0.1994750656167979,
+            "degree": 0.02631578947368421,
+            "id": "2020",
+            "modularity": 10,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.08025019401805736,
+            "closeness": 0.26480836236933797,
+            "degree": 0.02631578947368421,
+            "id": "adi",
+            "modularity": 5,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.010250918285076523,
+            "closeness": 0.2222222222222222,
+            "degree": 0.02631578947368421,
+            "id": "kriteria",
+            "modularity": 5,
+            "radius": 6.095238095238095
+        },
+        {
+            "betweenness": 0.07110695789242323,
+            "closeness": 0.2773722627737226,
+            "degree": 0.03289473684210526,
+            "id": "mengelola",
+            "modularity": 1,
+            "radius": 6.619047619047619
+        },
+        {
+            "betweenness": 0.025879512900251832,
+            "closeness": 0.22125181950509462,
+            "degree": 0.03289473684210526,
+            "id": "kustodian",
+            "modularity": 5,
+            "radius": 6.619047619047619
+        },
+        {
+            "betweenness": 0.05949007278303199,
+            "closeness": 0.25546218487394956,
+            "degree": 0.03289473684210526,
+            "id": "pembiayaan",
+            "modularity": 4,
+            "radius": 6.619047619047619
+        },
+        {
+            "betweenness": 0.053735696355075906,
+            "closeness": 0.2841121495327103,
+            "degree": 0.039473684210526314,
+            "id": "bp",
+            "modularity": 1,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.04976033174447256,
+            "closeness": 0.2345679012345679,
+            "degree": 0.039473684210526314,
+            "id": "investasi",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.11021339698796996,
+            "closeness": 0.2222222222222222,
+            "degree": 0.039473684210526314,
+            "id": "kebutuhan",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.11378549851449812,
+            "closeness": 0.2111111111111111,
+            "degree": 0.039473684210526314,
+            "id": "pemerintah",
+            "modularity": 9,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.07569131374028551,
+            "closeness": 0.2529118136439268,
+            "degree": 0.039473684210526314,
+            "id": "tabungan",
+            "modularity": 3,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.03163583879425634,
+            "closeness": 0.23100303951367782,
+            "degree": 0.039473684210526314,
+            "id": "mi",
+            "modularity": 5,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.17345205189837465,
+            "closeness": 0.2878787878787879,
+            "degree": 0.039473684210526314,
+            "id": "skema",
+            "modularity": 4,
+            "radius": 7.142857142857142
+        },
+        {
+            "betweenness": 0.08217203602137378,
+            "closeness": 0.29063097514340347,
+            "degree": 0.046052631578947366,
+            "id": "dana",
+            "modularity": 1,
+            "radius": 7.666666666666666
+        },
+        {
+            "betweenness": 0.14547344598974082,
+            "closeness": 0.27889908256880735,
+            "degree": 0.06578947368421052,
+            "id": "perumahan",
+            "modularity": 3,
+            "radius": 9.238095238095237
+        },
+        {
+            "betweenness": 0.24217711798096955,
+            "closeness": 0.30158730158730157,
+            "degree": 0.07236842105263158,
+            "id": "peserta",
+            "modularity": 7,
+            "radius": 9.761904761904761
+        },
+        {
+            "betweenness": 0.5773030032397408,
+            "closeness": 0.3431151241534989,
+            "degree": 0.14473684210526316,
+            "id": "tapera",
+            "modularity": 1,
+            "radius": 15.523809523809522
+        }
+    ]
+}
