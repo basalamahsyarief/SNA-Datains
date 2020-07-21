@@ -157,7 +157,5 @@ class QuerySNA:
                                    columns=vocab_index)
         self.gdata = data_matrix
         return self.graphanalytic()
-
-
 qsna = QuerySNA()
-data = qsna.generate_network()
+data = qsna.generate_network('media')
